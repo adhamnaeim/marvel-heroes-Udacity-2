@@ -1,4 +1,4 @@
-# marvel-heroes-html
+# marvel-heroes-udacity-2
 
 second project from Udacity's Front End Developer Nanodegree Program. 
 
