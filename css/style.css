@@ -1,0 +1,124 @@
+/* color scheme: https://www.schemecolor.com/avengers-age-of-ultron-theme-colors.php */
+
+/* typeography (fonts etc.) */
+h1{
+    font-size: 200%;
+}
+
+
+body{
+    background-color: #951E22;
+    background: linear-gradient(#951E22, #C72523);
+}
+
+/* navbar config */
+.nav_header{
+    background-color: #4D1518;
+    display: flex;
+    min-height: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 2;
+    margin:0;
+}
+nav{
+    width: 100%;
+}
+.navbar__menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navbar__menu ul li{
+    text-decoration: dashed;
+    margin: 10px 0 10px 0;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* need hover */
+.navbar__menu ul li:hover{
+    background-color: black;
+}
+/* header */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_header{
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    left: 0%;
+    width: 100%;
+    /* display: none; */
+    
+}
+
+.sticky{
+    position: sticky;
+}
+
+header img{
+    border-radius: 5%;
+    background-color: #1E2639;
+    width: 30%;
+}
+
+/* active container */
+
+.active{
+    background-color: rgb(144, 148, 145);
+}
+/* sections */
+header,
+section{
+    background-color: #B9BEBA;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info p{
+    width:60%;
+    text-align: center;
+}
+
+.info img{
+    background-image: linear-gradient(rgba(30, 38, 57, 1),rgba(30, 38, 57, 0));
+    width:40%;
+    border-radius: 5%;
+    height: 400px;
+}
+
+/* footer */
+
+footer{
+    background-color: #4D1518;
+    min-height: 75px;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+@media (min-width:900px) 
+{
+    .info img{
+        height:700px ;
+        width: 30%;
+    }
+
+}
